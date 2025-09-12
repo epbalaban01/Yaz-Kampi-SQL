@@ -1,5 +1,7 @@
 # Yaz-Kampi-SQL Kütüphane Ödevi
 
+<p align="center"><img src="https://socialify.git.ci/epbalaban01/Yaz-Kampi-SQL/image?name=1&amp;owner=1&amp;theme=Light" alt="project-image"></p>
+
 ## Açıklama
 Bu proje, bir kütüphane kitap envanterini takip etmek amacıyla hazırlanmıştır.  
 Amaç, **MSSQL kullanarak tablo oluşturma, veri ekleme ve filtreleme/sorgulama** işlemlerini uygulamaktır.  
