@@ -2,8 +2,6 @@
 
 <p align="center"><img src="https://socialify.git.ci/epbalaban01/Yaz-Kampi-SQL/image?name=1&amp;owner=1&amp;theme=Light" alt="project-image"></p>
 
----
-
 ## 🌟 Açıklama
 Bu proje, bir kütüphane kitap envanterini takip etmek amacıyla hazırlanmıştır.  
 Amaç, **MSSQL kullanarak tablo oluşturma, veri ekleme ve filtreleme/sorgulama** işlemlerini uygulamaktır.  
@@ -14,11 +12,10 @@ Amaç, **MSSQL kullanarak tablo oluşturma, veri ekleme ve filtreleme/sorgulama*
 - Fiyat, stok ve yayın yılı kısıtlamaları
 - Farklı filtreleme ve sıralama sorguları
 
----
 
 ## 🗂 Veritabanı ve Tablo
 
-- **Veritabanı Adı:** KutuphaneDB
+- **Veritabanı Adı:** kutuphane
 - **Tablo Adı:** Books
   
 | Alan | Tip | Özellik |
@@ -32,13 +29,11 @@ Amaç, **MSSQL kullanarak tablo oluşturma, veri ekleme ve filtreleme/sorgulama*
 | published_year | INT | 1900–2025 |
 | added_at | DATE |  |
 
----
 
 ## 📝 Veri Girişi
 Tabloya **15 kitap** eklenmiştir.  
 INSERT komutları ile tüm veriler eklenmiştir.
 
----
 
 ## 🔍 Sorgular (Görevler)
 
@@ -99,8 +94,6 @@ SELECT title, stock_qty, price FROM Books WHERE stock_qty BETWEEN 30 AND 60 ORDE
 
 ```
 
----
-
 ## 🚀 Kullanım
 
 1. `kutuphane.sql` dosyasını MSSQL Server Management Studio (SSMS) ile açın.
@@ -112,5 +105,5 @@ SELECT title, stock_qty, price FROM Books WHERE stock_qty BETWEEN 30 AND 60 ORDE
 - Türkçe karakterler için `NVARCHAR` ve `N'...'` kullanılmıştır.
 
  
----
+#
 > <b>Öneriler, istekler ve sorunların varsa lütfen bize ulaşın! :)</b>
