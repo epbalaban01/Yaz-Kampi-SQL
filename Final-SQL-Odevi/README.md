@@ -1,7 +1,9 @@
 # 📦 Online Alışveriş Platformu SQL Ödevi
 
+
+
 <p align="center">
-  <img src="https://socialify.git.ci/epbalaban01/Yaz-Kampi-SQL/image?name=1&owner=1&theme=Light" alt="Project Image" width="600"/>
+  <img src="https://socialify.git.ci/epbalaban01/Yaz-Kampi-SQL/image?description=1&font=Jost&pattern=Charlie+Brown&theme=Light" alt="Project Image" width="600"/>
 </p>
 
 ## 🌟 Proje Hakkında
