@@ -4,8 +4,6 @@
   <img src="https://socialify.git.ci/epbalaban01/Yaz-Kampi-SQL/image?name=1&owner=1&theme=Light" alt="Project Image" width="600"/>
 </p>
 
----
-
 ## 🌟 Proje Hakkında
 Bu proje, bir **online alışveriş platformu** için SQL veritabanı tasarımı ve sorgulama işlemlerini içermektedir.  
 Amaç, **MSSQL kullanarak tablolar oluşturma, veri ekleme, güncelleme ve raporlama sorguları** ile pratik yapmaktır.
@@ -14,8 +12,6 @@ Amaç, **MSSQL kullanarak tablolar oluşturma, veri ekleme, güncelleme ve rapor
 - Müşteri, ürün, satıcı ve sipariş yönetimi
 - Kategori bazlı ve satış bazlı raporlama
 - İleri seviye SQL sorguları ile analiz
-
----
 
 ## 🗂 Veritabanı ve Tablolar
 
@@ -72,15 +68,10 @@ Amaç, **MSSQL kullanarak tablolar oluşturma, veri ekleme, güncelleme ve rapor
 | adet | INT | NOT NULL |
 | fiyat | DECIMAL(10,2) | NOT NULL |
 
----
-
-
 ## ER Diyagramı:
-
 
 <p align="center">
   <img width="824" height="512" alt="image" src="https://github.com/user-attachments/assets/a3572e17-7c22-4c18-8db6-9cab9873b5bd" />
-
 
 ## 📝 Veri Ekleme ve Güncelleme
 
@@ -152,7 +143,7 @@ UPDATE Musteri SET sehir = 'İzmir' WHERE musteri_id = 2;
 DELETE FROM Urun WHERE urun_id = 5;
 ```
 
-#### Veri TRUNCATE
+#### TRUNCATE
 ```sql
 TRUNCATE TABLE Siparis_Detay;
 
@@ -289,12 +280,12 @@ WHERE K.ad = 'Elektronik';
 1. `OnlineAlisveris.sql` dosyasını MSSQL Server Management Studio (SSMS) ile açın.
 2. Dosyayı **F5** tuşuna basarak çalıştırın.
 3. Tüm veritabanı, tablolar, veriler ve sorgular otomatik olarak oluşturulacaktır.
+4. Projenin kısa dokümantasyonu ve tasarım raporu için Word dosyasına bakabilirsiniz:[`Dökümantasyon.docx`](https://github.com/epbalaban01/Yaz-Kampi-SQL/raw/refs/heads/main/Final-SQL-Odevi/Online%20Al%C4%B1%C5%9Fveri%C5%9F%20Bitirme%20%C3%96devi.docx)
 
 ## 🔧 Notlar
 - Tablolar arası `foreign key` ilişkileri kurulmuştur.
 - Tarih ve varsayılan değerler `DEFAULT GETDATE()` ile belirlenmiştir.
 - Türkçe karakterler için `NVARCHAR` kullanılmıştır.
-
 
 #
 > <b>Öneriler, istekler ve sorunlar için lütfen iletişime geçin! :)</b>
